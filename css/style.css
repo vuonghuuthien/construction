@@ -130,7 +130,7 @@ a:visited{
 }
 
 a{
-  color: #FE0000;
+  color: #FF4545;
 }
 
 
@@ -140,7 +140,7 @@ a:hover{
 }
 
 a.read-more{
-   color: #FE0000;
+   color: #FF4545;
    font-weight: 700;
    text-transform: uppercase;
 }
@@ -263,7 +263,7 @@ img.pull-right {
   text-transform: uppercase;
 }
 .dropcap.primary {
-  background: #FE0000;
+  background: #FF4545;
   color: #fff;
 }
 .dropcap.secondary {
@@ -309,7 +309,7 @@ img.pull-right {
    bottom: 0px;
    width: 50px;
    height: 2px;
-   background: #FE0000;
+   background: #FF4545;
    left: 50%;
    margin-left: -30px;
    z-index: 1;
@@ -380,7 +380,7 @@ h3.border-title.border-left{
 
 .form-control:focus{
    box-shadow: none;
-   border: 1px solid #FE0000;
+   border: 1px solid #FF4545;
 }
 
 hr {
@@ -393,7 +393,7 @@ hr {
 blockquote {
    padding: 30px;
    padding-left: 40px;
-   border-left: 5px solid #FE0000;
+   border-left: 5px solid #FF4545;
    margin: 30px 0;
    background: #f9f9f9;
    position: relative;
@@ -443,11 +443,11 @@ cite {
 
 .btn-white.btn-primary {
    background: #fff;
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .btn-primary {
-  background: #FE0000;
+  background: #FF4545;
 }
 
 .btn-dark {
@@ -485,7 +485,7 @@ cite {
     font-family: FontAwesome;
     content: "\f138";
     margin-right: 10px;
-    color: #FE0000;
+    color: #FF4545;
     font-size: 12px;
 }
 
@@ -497,7 +497,7 @@ ul.list-arrow li:before {
    font-family: FontAwesome;
    content: "\f105";
    margin-right: 10px;
-   color: #FE0000;
+   color: #FF4545;
    font-size: 16px;
 }
 
@@ -506,7 +506,7 @@ ul.list-check li:before {
    font-family: FontAwesome;
    content: "\f00c";
    margin-right: 10px;
-   color: #FE0000;
+   color: #FF4545;
    font-size: 14px;
 }
 
@@ -558,7 +558,7 @@ a[href^=tel] {
 
 .top-bar .container {
    padding: 8px 20px 8px;
-   background: #FE0000;
+   background: #FF4545;
    position: relative;
 }
 
@@ -655,7 +655,7 @@ ul.top-info li p.info-text {
 }
 
 .top-bar-border ul.top-info li i{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 
@@ -686,7 +686,19 @@ ul.top-info li p.info-text {
 
 .logo {
   padding: 28px 0;
+  position: relative;
 }
+
+/* .logo .ribbon {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   background: #009AFF;
+   top: 0;
+   z-index: -1;
+   left: 50%;
+   transform: translateX(-50%) skew(15deg);
+} */
 
 /* header right */
 
@@ -727,7 +739,7 @@ ul.top-info-box li .info-box span.info-icon {
   border: 1px solid #d3d3d3;
   margin-right: 20px;
   position: relative;
-  color: #FE0000;
+  color: #FF4545;
 }
 
 ul.top-info-box li .info-box span.info-icon i{
@@ -805,7 +817,7 @@ ul.top-info-box > li.nav-search i{
    padding: 12px;
    border-radius: 0;
    margin-right: 5px;
-   background: #FE0000;
+   background: #FF4545;
 }
 
 .navbar-toggle .icon-bar{
@@ -829,7 +841,7 @@ ul.navbar-nav > li{
 
 ul.navbar-nav > li:hover > a, 
 ul.navbar-nav > li.active > a{
-  color: #FE0000;
+  color: #FF4545;
   position: relative;
 }
 
@@ -939,7 +951,7 @@ ul.navbar-nav > li > a i{
 	min-width: 200px;
 	border-radius: 0;
    border: 0;
-   border-top: 2px solid #FE0000;
+   border-top: 2px solid #FF4545;
    padding: 0 20px;
 }
 
@@ -958,7 +970,7 @@ ul.navbar-nav > li > a i{
 }
 
 .dropdown-menu-large > li > ul > li.active > a{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .navbar-nav>li>.dropdown-menu a{
@@ -986,12 +998,12 @@ ul.navbar-nav > li > a i{
 .dropdown-menu>.active>a:focus, 
 .dropdown-menu>.active>.dropdown-menu>.active>a{
 	background: none;
-	color: #FE0000;
+	color: #FF4545;
 }
 
 .dropdown-menu li a:hover, 
 .dropdown-menu li a:focus{
-	color: #FE0000;
+	color: #FF4545;
 }
 
 @media (min-width: 768px) {
@@ -1138,7 +1150,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 .slide-title-box{
    font-size: 16px;
    line-height: 39px;
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    display: inline-block;
    padding: 0 15px;
@@ -1202,11 +1214,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 .slider.border{
    background: none;
-   border: 2px solid #FE0000;
+   border: 2px solid #FF4545;
 }
 
 .slider.border:hover{
-   background: #FE0000;
+   background: #FF4545;
    border:2px solid transparent;
 }
 
@@ -1223,7 +1235,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 #main-slide .carousel-indicators li.active,
 #main-slide .carousel-indicators li:hover {
-   background: #FE0000;
+   background: #FF4545;
    -moz-transition: all 300ms ease;
 	-webkit-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -1288,7 +1300,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 #main-slide .carousel-control i:hover{
-	background: #FE0000;
+	background: #FF4545;
    color: #fff;
 }
 
@@ -1346,7 +1358,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 .owl-carousel .owl-nav > div{
    margin: 0 5px;
-   background-color: #FE0000;
+   background-color: #FF4545;
    color: #fff;
    width: 32px;
    height: 32px;
@@ -1386,7 +1398,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #FE0000;
+    background: #FF4545;
     opacity: 1;
 }
 
@@ -1419,7 +1431,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .page-slider.owl-theme .owl-nav > div:hover{
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
 }
 
@@ -1522,7 +1534,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .call-to-action-btn-angle{
-  background: #FE0000;
+  background: #FF4545;
   min-height: 80px;
   padding: 28px 0;
   position: relative;
@@ -1536,14 +1548,14 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    z-index: 0;
    border-left: 30px solid transparent;
    border-right: 0 solid transparent;
-   border-bottom: 80px solid #FE0000;
+   border-bottom: 80px solid #FF4545;
    bottom: 0;
 }
 
 .call-to-action-btn-angle:after {
    content: "";
    position: absolute;
-   background: #FE0000;
+   background: #FF4545;
    display: block;
    width: 300%;
    height: 100%;
@@ -1569,7 +1581,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 /* Call to action classic */
 
 .call-to-action.classic{
-   background: #FE0000;
+   background: #FF4545;
    padding: 20px;
    color: #fff;
 }
@@ -1588,7 +1600,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 /* Action style box */
 
 .call-to-action-box .action-style-box{
-   background: #FE0000;
+   background: #FF4545;
    padding: 25px 30px;
 }
 
@@ -1621,7 +1633,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    top: -5px;
    bottom: 0;
    margin: auto;
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    border: 8px solid #e9edeb;
    align-items: center;
@@ -1683,7 +1695,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 .featured-tab .nav-tabs>li.active>a{
    color: #fff;
-   background: #FE0000;
+   background: #FF4545;
    position: relative;
 }
 
@@ -1696,7 +1708,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    left: 50%;
    border-width: 10px;
    border-style: solid;
-   border-color: #FE0000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+   border-color: #FF4545 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
    -webkit-transform: translateX(-50%);
    transform: translateX(-50%);
 }
@@ -1751,7 +1763,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 .facts-area {
    padding: 100px 0;
    color: #ffffff;
-   background-color: #FE0000;
+   background-color: #FF4545;
    background-image: url(../images/parallax1.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -1793,7 +1805,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 .ts-facts .ts-facts-icon i {
    font-size: 42px;
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .ts-facts .ts-facts-content .ts-facts-num {
@@ -1805,7 +1817,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 
 .ts-facts .ts-facts-content .ts-facts-title {
    font-size: 16px;
-   color: #FE0000;
+   color: #FF4545;
    margin: 0 0 0 10px;
    display: inline-block;
 }
@@ -1821,7 +1833,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    font-size: 24px;
    float: left;
    color: #fff;
-   background: #FE0000;
+   background: #FF4545;
    border-radius: 100%;
    width: 60px;
    height: 60px;
@@ -1858,7 +1870,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .service-box-title a:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .service-center-img{
@@ -1871,7 +1883,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    font-size: 24px;
    float: left;
    color: #fff;
-   background: #FE0000;
+   background: #FF4545;
    text-align: center;
    border-radius: 0;
    width: 48px;
@@ -1904,7 +1916,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .ts-service-box.icon-left .ts-service-box-icon i{
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
 }
 
@@ -1958,7 +1970,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    font-size: 24px;
    float: left;
    color: #fff;
-   background: #FE0000;
+   background: #FF4545;
    border-radius: 100%;
    width: 60px;
    height: 60px;
@@ -1975,7 +1987,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .ts-service-classic:hover .ts-service-icon i{
-   background: #FE0000;
+   background: #FF4545;
 }
 
 /* Projects area
@@ -2021,9 +2033,9 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .isotope-nav ul a.active {
-   color: #FE0000;
-   border-color: #FE0000;
-   border-bottom: 2px solid #FE0000;
+   color: #FF4545;
+   border-color: #FF4545;
+   border-bottom: 2px solid #FF4545;
 }
 
 .project-area .isotope-nav ul li a{
@@ -2077,7 +2089,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    right: 0;
    z-index: 1;
    padding: 5px 12px;
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    opacity: 0;
    -webkit-transform: perspective(1px) scale3d(0, 0, 0);
@@ -2128,11 +2140,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
 }
 
 .project-item-title a:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .project-cat{
-   background: #FE0000;
+   background: #FF4545;
    display: inline-block;
    padding: 2px 8px;
    font-weight: 700;
@@ -2177,7 +2189,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    bottom: -1px;
    padding: 15px 20px;
    width: 100%;
-   background: #FE0000;
+   background: #FF4545;
 }
 
 
@@ -2193,7 +2205,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after{
    display: inline-block;
    margin: 0 2px;
    font-size: 20px;
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    width: 30px;
    height: 30px;
@@ -2260,7 +2272,7 @@ h4.panel-title{
 }
 
 h4.panel-title a{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 h4.panel-title span{
@@ -2272,7 +2284,7 @@ h4.panel-title a.collapsed{
 }
 
 h4.panel-title a:before{
-    background: #FE0000;
+    background: #FF4545;
     color: #fff;
     width: 26px;
     height: 26px;
@@ -2341,7 +2353,7 @@ h4.panel-title a.collapsed:before {
 
 .testimonial-area{
    padding: 100px 0;
-   background-color: #FE0000;
+   background-color: #FF4545;
    background-image: url(../images/parallax2.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -2412,7 +2424,7 @@ img.testimonial-thumb{
    margin: 0 0 2px;
    font-weight: 700;
    display: block;
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .quote-subtext{
@@ -2445,7 +2457,7 @@ img.testimonial-thumb{
 }
 
 .testimonial-slide.owl-theme .owl-dots .owl-dot.active span {
-    background: #FE0000;
+    background: #FF4545;
     opacity: 1;
 }
 
@@ -2482,7 +2494,7 @@ img.testimonial-thumb{
 /* Testimonial Border */
 
 .quote-item.quote-border .quote-text-border{
-   border: 1px solid #FE0000;
+   border: 1px solid #FF4545;
    padding: 20px;
    position: relative;
    line-height: 28px;
@@ -2494,7 +2506,7 @@ img.testimonial-thumb{
 .quote-item.quote-border .quote-text-border:before {
    border: 12px solid;
    border-color: #e1e1e1 transparent transparent;
-   border-top-color: #FE0000;
+   border-top-color: #FF4545;
    bottom: -24px;
    position: absolute;
    content: "";
@@ -2539,7 +2551,7 @@ img.testimonial-thumb{
 ================================================== */
 
 .subscribe{
-  background: #FE0000;
+  background: #FF4545;
   padding: 0;
 }
 
@@ -2625,7 +2637,7 @@ img.testimonial-thumb{
    top: 0;
    border-radius: 0;
    padding: 15px 30px 10px;
-   background: #FE0000 url(../images/newsletter-icon.png) no-repeat 20px 50% !important;
+   background: #FF4545 url(../images/newsletter-icon.png) no-repeat 20px 50% !important;
    text-indent: -9999em;
 }
 
@@ -2652,7 +2664,7 @@ img.testimonial-thumb{
 }
 
 .latest-post .post-title a:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .latest-post .post-item-author{
@@ -2671,7 +2683,7 @@ img.testimonial-thumb{
 /*- Footer common */
 
 .footer{
-   background-color: #FE0000;
+   background-color: #FF4545;
    background-image: url(../images/parallax3.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -2706,7 +2718,7 @@ img.testimonial-thumb{
    bottom: 0px;
    width: 50px;
    height: 1px;
-   background: #FE0000;
+   background: #FF4545;
    left: 0;
    z-index: 1;
 }
@@ -2758,7 +2770,7 @@ img.testimonial-thumb{
    width: 72px;
    height: 72px;
    line-height: 66px;
-   color: #FE0000;
+   color: #FF4545;
    border-radius: 100%;
    -webkit-transition: 350ms;
     -moz-transition: 350ms;
@@ -2767,7 +2779,7 @@ img.testimonial-thumb{
 }
 
 .action-box:hover .action-box-icon i{
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
 }
 
@@ -2883,7 +2895,7 @@ img.testimonial-thumb{
 
 .footer-widget ul.list-arrow li:hover a,
 .footer-widget ul.list-arrow li:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .working-hours {
@@ -2908,7 +2920,7 @@ img.testimonial-thumb{
 /*-- Copyright --*/
 
 .copyright{
-   background: #FE0000;
+   background: #FF4545;
    color: #333333;
    padding: 40px 0;
    position: relative;
@@ -2954,7 +2966,7 @@ img.testimonial-thumb{
    line-height: 42px;
    background: rgba(0, 0, 0, 0.9);
    border-radius: 3px;
-   color: #FE0000;
+   color: #FF4545;
    font-weight: 700;
    font-size: 18px;
    padding: 0;
@@ -3136,7 +3148,7 @@ img.testimonial-thumb{
    margin-top: 0;
    margin-bottom: 3px;
    line-height: normal;
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .ts-team-content .ts-designation {
@@ -3157,7 +3169,7 @@ img.testimonial-thumb{
 }
 
 .team-social-icons a i:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 /* Team Classic */
@@ -3178,7 +3190,7 @@ img.testimonial-thumb{
 }
 
 .ts-team-content-classic .team-social-icons a i:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 /*-- Pricing table  --*/
@@ -3191,7 +3203,7 @@ img.testimonial-thumb{
 }
 
 .ts-pricing-header{
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    position: relative;
    padding: 30px 20px;
@@ -3280,7 +3292,7 @@ img.testimonial-thumb{
 .contact-info-box i {
    float: left;
    font-size: 24px;
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .contact-info-box-content {
@@ -3346,7 +3358,7 @@ label{
 }
 
 .entry-header .entry-title a:hover{
-	color: #FE0000;
+	color: #FF4545;
 }
 
 
@@ -3361,7 +3373,7 @@ label{
 }
 
 .post-meta a:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .post-meta span{
@@ -3409,7 +3421,7 @@ label{
 .pagination>.active>a, .pagination>.active>a:hover,
 .pagination>li>a:hover{
 	color: #fff;
-  	background: #FE0000;
+  	background: #FF4545;
 	border: 1px solid transparent;
 }
 
@@ -3431,7 +3443,7 @@ label{
 }
 
 .post-tags a:hover{
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    border: 1px solid transparent;
 }
@@ -3514,7 +3526,7 @@ label{
 }
 
 .comments-list .comment-reply:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .comments-counter{
@@ -3616,7 +3628,7 @@ label{
    height: 2px;
    left: 0;
    z-index: 1;
-   background: #FE0000;
+   background: #FF4545;
 }
 
 /* Widget common */
@@ -3659,7 +3671,7 @@ label{
 }
 
 .sidebar .widget ul li a:hover{
-   color: #FE0000;  
+   color: #FF4545;  
 }
 
 .sidebar .widget ul li i{
@@ -3696,7 +3708,7 @@ label{
 
 .sidebar ul.nav-tabs li.active a, 
 .sidebar ul.nav-tabs li:hover a{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .sidebar ul.nav-tabs li{
@@ -3726,7 +3738,7 @@ label{
 
 .sidebar ul.service-menu li.active a,
 .sidebar ul.service-menu li:hover a{
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    cursor: pointer;
    font-weight: 700;
@@ -3775,7 +3787,7 @@ label{
 }
 
 .widget.recent-posts .entry-title a:hover{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .widget.recent-posts .post-date{
@@ -3805,7 +3817,7 @@ label{
 }
 
 .sidebar .widget-tags ul > li a:hover{
-   background: #FE0000;
+   background: #FF4545;
    color: #fff;
    border: 1px solid transparent;
 }
@@ -3874,7 +3886,7 @@ label{
 
 .nav-style-boxed ul.navbar-nav > li.active > a,
 .nav-style-boxed ul.navbar-nav > li:hover > a{
-   color: #FE0000;
+   color: #FF4545;
 }
 
 .nav-style-boxed ul.navbar-nav > li.header-get-a-quote{
@@ -3887,7 +3899,7 @@ label{
    padding: 15px;
    font-size: 14px;
    text-transform: uppercase;
-   background: #FE0000;
+   background: #FF4545;
 }
 
 .nav-style-boxed ul.navbar-nav > li.header-get-a-quote a:hover{
@@ -3899,7 +3911,7 @@ label{
     position: absolute;
     right: 100%;
     z-index: 999;
-    border-top: 65px solid #FE0000;
+    border-top: 65px solid #FF4545;
     border-left: 30px solid transparent;
     border-right: 0 solid transparent;
     bottom: 0;
